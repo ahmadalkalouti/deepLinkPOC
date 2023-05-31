@@ -13,6 +13,11 @@
 		0030F21C2A25E53400DF7E58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0030F21A2A25E53400DF7E58 /* Main.storyboard */; };
 		0030F21E2A25E53800DF7E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0030F21D2A25E53800DF7E58 /* Assets.xcassets */; };
 		0030F2212A25E53800DF7E58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0030F21F2A25E53800DF7E58 /* LaunchScreen.storyboard */; };
+		0030F22A2A25F28500DF7E58 /* DeepLinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0030F2292A25F28500DF7E58 /* DeepLinkHandler.swift */; };
+		0030F22C2A25F2D100DF7E58 /* DeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0030F22B2A25F2D100DF7E58 /* DeepLink.swift */; };
+		0030F22E2A2636E200DF7E58 /* DeepLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0030F22D2A2636E200DF7E58 /* DeepLinkManager.swift */; };
+		0030F2302A2736FD00DF7E58 /* FAQDeepLinkHandller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0030F22F2A2736FD00DF7E58 /* FAQDeepLinkHandller.swift */; };
+		0030F2322A2760F900DF7E58 /* DeeplinkMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0030F2312A2760F900DF7E58 /* DeeplinkMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		0030F21D2A25E53800DF7E58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0030F2202A25E53800DF7E58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0030F2222A25E53800DF7E58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0030F2292A25F28500DF7E58 /* DeepLinkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkHandler.swift; sourceTree = "<group>"; };
+		0030F22B2A25F2D100DF7E58 /* DeepLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLink.swift; sourceTree = "<group>"; };
+		0030F22D2A2636E200DF7E58 /* DeepLinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkManager.swift; sourceTree = "<group>"; };
+		0030F22F2A2736FD00DF7E58 /* FAQDeepLinkHandller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQDeepLinkHandller.swift; sourceTree = "<group>"; };
+		0030F2312A2760F900DF7E58 /* DeeplinkMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		0030F2132A25E53400DF7E58 /* Deeplink POC */ = {
 			isa = PBXGroup;
 			children = (
+				0030F2282A25F25B00DF7E58 /* Deep Link */,
 				0030F2142A25E53400DF7E58 /* AppDelegate.swift */,
 				0030F2162A25E53400DF7E58 /* SceneDelegate.swift */,
 				0030F2182A25E53400DF7E58 /* ViewController.swift */,
@@ -65,6 +76,18 @@
 				0030F2222A25E53800DF7E58 /* Info.plist */,
 			);
 			path = "Deeplink POC";
+			sourceTree = "<group>";
+		};
+		0030F2282A25F25B00DF7E58 /* Deep Link */ = {
+			isa = PBXGroup;
+			children = (
+				0030F2292A25F28500DF7E58 /* DeepLinkHandler.swift */,
+				0030F22B2A25F2D100DF7E58 /* DeepLink.swift */,
+				0030F22D2A2636E200DF7E58 /* DeepLinkManager.swift */,
+				0030F22F2A2736FD00DF7E58 /* FAQDeepLinkHandller.swift */,
+				0030F2312A2760F900DF7E58 /* DeeplinkMapper.swift */,
+			);
+			path = "Deep Link";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0030F2322A2760F900DF7E58 /* DeeplinkMapper.swift in Sources */,
 				0030F2192A25E53400DF7E58 /* ViewController.swift in Sources */,
 				0030F2152A25E53400DF7E58 /* AppDelegate.swift in Sources */,
+				0030F22C2A25F2D100DF7E58 /* DeepLink.swift in Sources */,
+				0030F2302A2736FD00DF7E58 /* FAQDeepLinkHandller.swift in Sources */,
+				0030F22A2A25F28500DF7E58 /* DeepLinkHandler.swift in Sources */,
 				0030F2172A25E53400DF7E58 /* SceneDelegate.swift in Sources */,
+				0030F22E2A2636E200DF7E58 /* DeepLinkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
